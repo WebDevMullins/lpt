@@ -39,7 +39,9 @@ export function MainNav() {
 			</nav> */}
 			<NavigationMenu>
 				<NavigationMenuItem>
-					<NavigationMenuTrigger>Services</NavigationMenuTrigger>
+					<NavigationMenuTrigger className='bg-transparent hover:bg-transparent focus:bg-transparent'>
+						Services
+					</NavigationMenuTrigger>
 					<NavigationMenuContent>
 						<ul className='grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]'>
 							{navConfig.mainNav[0]?.dropdown?.map((component) => (

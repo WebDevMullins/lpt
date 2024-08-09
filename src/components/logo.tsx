@@ -1,5 +1,5 @@
 // import { companyInfo } from '@/config/docs'
-import { siteConfig } from '@/config/site'
+import { companyInfo } from '@/config/docs'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -9,13 +9,13 @@ const Logo = () => {
 			href='/'
 			className='mr-6 flex items-center justify-center space-x-2'>
 			<Image
-				alt={`${siteConfig.name} Logo`}
+				alt={`${companyInfo.name} Logo`}
 				src={'/favicon.ico'}
 				height={24}
 				width={24}
 			/>
 			<span className='hidden font-bold sm:inline-block'>
-				{siteConfig.name}
+				{companyInfo.name}
 			</span>
 		</Link>
 	)

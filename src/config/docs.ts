@@ -23,7 +23,7 @@ interface NavConfig {
 }
 
 export const companyInfo = {
-	title: 'Company Name',
+	name: 'Company Name',
 	email: 'company@email.com',
 	image: '/logo.png',
 	url: 'https://company.com'
@@ -96,7 +96,7 @@ export const footerConfig = {
 }
 
 export const heroConfig: HeroConfig = {
-	backgroundType: 'Dot', // Grid, GridSmall, Dot, or empty for no background
+	backgroundType: 'Grid', // Grid, GridSmall, Dot, or empty for no background
 	heading: 'Headline Placeholder',
 	description:
 		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quo ratione, mollitia ex temporibus consequatur, saepe adipisci labore delectus fuga iure dicta cumque recusandae accusamus aperiam sunt omnis veniam deleniti?',
