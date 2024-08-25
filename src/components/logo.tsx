@@ -14,8 +14,9 @@ const Logo = () => {
 				height={24}
 				width={24}
 			/>
-			<span className='hidden font-bold sm:inline-block'>
-				{companyInfo.name}
+			<span className='hidden font-bold text-[#666666] sm:inline-block'>
+				Landscape
+				<span className='text-[#29cadf]'> Professionals</span>
 			</span>
 		</Link>
 	)
